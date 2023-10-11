@@ -11,7 +11,7 @@ jobs:
       - uses: actions/download-artifact@v3
         with:
           name: phpdoc
-          path: .
+          path: ./hello-elementor-child1/includes/docs
 
       - name: Deploy phpDocumentor documentation
         run: |
